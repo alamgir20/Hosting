@@ -1,0 +1,110 @@
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .brand_name a{
+     font-size: 30px;
+  
+}
+.header-section p{
+     font-size: 30px;
+    
+}
+.header-list{
+	font-size: 15px;
+}
+.button-box small{
+        font-size: 25px;
+        margin-left: 200px;
+}
+.header-list li + li {
+     margin-top: 15px;
+     font-size: 15px;
+}
+
+}
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .brand_name a{
+     font-size: 27px;
+}
+.header-section p{
+     font-size: 23px;
+    
+}
+.button-box small{
+        font-size: 20px;
+        margin-left: 200px;
+}
+.header-list li + li {
+     margin-top: 15px;
+     font-size: 15px;
+}
+
+}
+/* Extra small Device. */
+@media (max-width: 767px) {
+   .brand_name a{
+     font-size: 27px;
+}
+.header-section p{
+     font-size: 23px;
+    
+}
+.button-box small{
+        font-size: 20px;
+        margin-left: 200px;
+}
+.header-list li + li {
+     margin-top: 15px;
+     font-size: 15px;
+}
+.button-box .btn {
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 27px;
+    line-height: 33px;
+    font-weight: 400;
+    color: #333333;
+    padding: 21px 0 23px;
+    background: #feea3a;
+    border-radius: 3px;
+    transition: 0.5s;
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.29);
+}
+.button-box:hover .btn {
+   font-size: 20px;
+    
+}
+ 
+}
+* SM Small Device :550px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .brand_name a{
+     font-size: 27px;
+}
+.header-section p{
+     font-size: 23px;
+    
+}
+.button-box small{
+        font-size: 20px;
+        margin-left: 200px;
+}
+.header-list li + li {
+     margin-top: 15px;
+     font-size: 15px;
+}
+ 
+}
+* SM Small Device :550px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .price_section{
+    	width: 100%;
+    }
+   .top-section h2{
+     margin: 2px auto;
+     padding: 0px;
+     font-size: 23px;
+    
+}
+}
